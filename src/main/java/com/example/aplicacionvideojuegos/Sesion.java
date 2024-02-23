@@ -27,8 +27,8 @@ public class Sesion {
         return idSesion;
     }
 
-    public void setIdSesion(Integer idPartida) {
-        this.idSesion = idPartida;
+    public void setIdSesion(Integer idSesion) {
+        this.idSesion = idSesion;
     }
 
     public Integer getPuntuacion() {

@@ -20,7 +20,7 @@ public class Sesion {
     private Float tiempoJuego;
 
     @ManyToOne
-    @JoinColumn(name = "videojuego_id")
+    @JoinColumn(name = "idVideojuego")
     private Videojuego videojuego;
 
     public Integer getIdSesion() {

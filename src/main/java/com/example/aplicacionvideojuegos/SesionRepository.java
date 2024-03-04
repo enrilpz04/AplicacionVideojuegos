@@ -14,7 +14,7 @@ public interface SesionRepository extends JpaRepository<Sesion,Integer> {
     List<Sesion> findPartidasOrderByPuntuacion(@Param("puntuacion") Integer puntuacion);
 
     @Query("SELECT c FROM Sesion c ORDER BY c.tiempoJuego DESC")
-    List<Sesion> findPartidasOrderByTiempoJuego(@Param("tiempoJuego") Integer tiempoJuego);
+    List<Sesion> findPartidasOrderByTiempoJuego(@Param("tiempoJuego") Float tiempoJuego);
 
 
 }
